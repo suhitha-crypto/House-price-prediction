@@ -11,6 +11,18 @@ This project predicts house prices using the King County Housing dataset.
 - Matplotlib
 - Seaborn
 
+## Dataset
+
+The project uses the King County Housing dataset containing residential property information such as:
+
+- Bedrooms and bathrooms
+- Living area and lot size
+- House condition and grade
+- Waterfront and view information
+- Geographic location
+- Construction and renovation details
+- Sale price
+
 ## Workflow
 1. Data Cleaning
 2. Exploratory Data Analysis
@@ -31,5 +43,22 @@ This project predicts house prices using the King County Housing dataset.
 - One-hot encoding
 - Feature scaling
 
+## Future Improvements
+
+- Random Forest Regression
+- XGBoost Regression
+- Hyperparameter tuning
+- Feature selection techniques
+- Streamlit deployment
+
 ## Results
-The model successfully predicts housing prices using engineered features and regularized linear regression.
+
+The Ridge Regression model successfully predicted house prices using engineered housing features and regularized linear regression techniques.
+
+Model performance was evaluated using:
+
+- R² Score
+- Root Mean Squared Error (RMSE)
+- Mean Absolute Error (MAE)
+
+The project demonstrates how feature engineering, preprocessing, and regularization can improve regression model performance.
