@@ -57,8 +57,8 @@ The Ridge Regression model successfully predicted house prices using engineered 
 
 Model performance was evaluated using:
 
-- R² Score
-- Root Mean Squared Error (RMSE)
-- Mean Absolute Error (MAE)
+- R² Score: 0.8698
+- Root Mean Squared Error (RMSE): $115,650.49
+- Mean Absolute Error (MAE): $70,16.81
 
 The project demonstrates how feature engineering, preprocessing, and regularization can improve regression model performance.
